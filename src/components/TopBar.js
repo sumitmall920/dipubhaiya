@@ -71,7 +71,7 @@ function TopBar() {
         <a href="/" className="text-white me-3" style={{ textDecoration: "none" }}>
           LinkedIn
         </a>
-        <a href="/" className="text-white" style={{ textDecoration: "none" }}>
+        <a href="www.google.com" className="text-white" style={{ textDecoration: "none" }}>
           Instagram
         </a>
       </div>
