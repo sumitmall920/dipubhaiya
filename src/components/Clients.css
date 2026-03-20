@@ -1,0 +1,112 @@
+.clients-container {
+  padding: 60px 0;
+  background: white;
+  text-align: center;
+}
+
+.clients-head h4 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.clients-head h4 span {
+  color: #f7931e;
+}
+
+.clients-head p {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* FLEX FIX */
+.clients-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* 🔥 important for mobile */
+}
+
+.clients-item {
+  width: 250px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+
+.clients-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* SINGLE IMAGE STYLE */
+.client-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #f7931e;
+}
+
+.clients-text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.clients-item h6 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.clients-item span {
+  font-size: 13px;
+  color: #999;
+}
+
+.clients-buttons {
+  margin-top: 30px;
+}
+
+.clients-buttons button {
+  padding: 8px 18px;
+  margin: 0 10px;
+  border: none;
+  background: #f7931e;
+  color: #fff; /* 🔥 fixed */
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.clients-buttons button:hover {
+  background: #e67e00;
+}
+.clients-item {
+  text-align: center;
+}
+
+.clients-item h6 {
+  font-weight: bold;
+}
+/* Hover effect */
+.clients-item:hover {
+  background: #f7931e;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* Text white on hover */
+.clients-item:hover h6,
+.clients-item:hover span,
+.clients-item:hover .clients-text {
+  color: #fff;
+}
+
+/* Image border bhi white ho jaye */
+.clients-item:hover .client-img {
+  border-color: #fff;
+}
