@@ -23,7 +23,7 @@ function TopBar() {
             className="text-white"
             style={{ textDecoration: "none" }}
           >
-            📧 Email
+            📧shreeramenterprise7226@gmail.com
           </a>
 
           <a
@@ -31,7 +31,7 @@ function TopBar() {
             className="text-white"
             style={{ textDecoration: "none" }}
           >
-            📞 Call
+            📞7226023372
           </a>
         </div>
 
