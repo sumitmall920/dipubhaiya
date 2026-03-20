@@ -65,13 +65,13 @@ function TopBar() {
 
       {/* RIGHT SIDE (only desktop) */}
       <div className="d-none d-md-block">
-        <a href="#" className="text-white me-3" style={{ textDecoration: "none" }}>
+        <a href="/" className="text-white me-3" style={{ textDecoration: "none" }}>
           Facebook
         </a>
-        <a href="#" className="text-white me-3" style={{ textDecoration: "none" }}>
+        <a href="/" className="text-white me-3" style={{ textDecoration: "none" }}>
           LinkedIn
         </a>
-        <a href="#" className="text-white" style={{ textDecoration: "none" }}>
+        <a href="/" className="text-white" style={{ textDecoration: "none" }}>
           Instagram
         </a>
       </div>
