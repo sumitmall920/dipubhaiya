@@ -8,21 +8,22 @@ function TopBar() {
         backgroundColor: "#0b245b",
         color: "white",
         fontSize: "clamp(12px, 2vw, 14px)",
-        padding: "5px 0"
+        padding: "6px 0",
+        flexWrap: "wrap"
       }}
     >
-
+      
       {/* LEFT SIDE */}
-      <div>
+      <div className="d-flex align-items-center flex-wrap">
 
-        {/* 📱 Mobile view (only 1 mail + 1 number) */}
-        <div className="d-block d-md-none space-bt-1">
+        {/* 📱 Mobile view */}
+        <div className="d-flex d-md-none justify-content-between w-100">
           <a
             href="mailto:Shreeramenterprise7226@gmail.com"
-            className="text-white me-3"
+            className="text-white"
             style={{ textDecoration: "none" }}
           >
-            📧 EMail Service
+            📧 Email
           </a>
 
           <a
@@ -30,12 +31,12 @@ function TopBar() {
             className="text-white"
             style={{ textDecoration: "none" }}
           >
-            📞 Call:+91-7226023372
+            📞 Call
           </a>
         </div>
 
-        {/* 💻 Desktop view (full details) */}
-        <div className="d-none d-md-block">
+        {/* 💻 Desktop view */}
+        <div className="d-none d-md-flex align-items-center">
           <a
             href="mailto:Shreeramenterprise7226@gmail.com"
             className="text-white me-3"
@@ -63,15 +64,35 @@ function TopBar() {
 
       </div>
 
-      {/* RIGHT SIDE (only desktop) */}
-      <div className="d-none d-md-block">
-        <a href="/" className="text-white me-3" style={{ textDecoration: "none" }}>
+      {/* RIGHT SIDE */}
+      <div className="d-none d-md-flex align-items-center mt-1 mt-md-0">
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          rel="noreferrer"
+          className="text-white me-3"
+          style={{ textDecoration: "none" }}
+        >
           Facebook
         </a>
-        <a href="/" className="text-white me-3" style={{ textDecoration: "none" }}>
+
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          rel="noreferrer"
+          className="text-white me-3"
+          style={{ textDecoration: "none" }}
+        >
           LinkedIn
         </a>
-        <a href="www.google.com" className="text-white" style={{ textDecoration: "none" }}>
+
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          rel="noreferrer"
+          className="text-white"
+          style={{ textDecoration: "none" }}
+        >
           Instagram
         </a>
       </div>
